@@ -78,12 +78,6 @@ const Login = () => {
                         </button>
                     </form>
 
-                    <div className="mt-6 flex items-center justify-between">
-                        <hr className="w-full border-gray-300" />
-                        <span className="text-gray-500 mx-4">or</span>
-                        <hr className="w-full border-gray-300" />
-                    </div>
-
                 </div>
             </div></>
     );

@@ -106,19 +106,6 @@ const SignUp = () => {
               {loading ? 'Signing Up...' : 'Sign Up'}
             </button>
           </form>
-
-          <div className="mt-6 flex items-center justify-between">
-            <hr className="w-full border-gray-300" />
-            <span className="text-gray-500 mx-4">or</span>
-            <hr className="w-full border-gray-300" />
-          </div>
-
-          <button
-            type="button"
-            className="w-full mt-4 py-2 px-4 bg-gray-800 text-white font-bold rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-800"
-          >
-            Sign Up with Google
-          </button>
         </div>
       </div></>
   );
